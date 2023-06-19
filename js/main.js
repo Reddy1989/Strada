@@ -17,50 +17,61 @@
 // // MyAge = 30;
 // console.log(MyAge);
 
-let NewNum = '6';
-let NewString = 6;
-let NewBoolean = true;
-let NewStringWithLetter = '2b';
-const FIRSTNAME = 'Alexander';
+// let NewNum = '6';
+// let NewString = 6;
+// let NewBoolean = true;
+// let NewStringWithLetter = '2b';
+// const FIRSTNAME = 'Alexander';
 
-console.log('Базовые операторы "умножение"');
+// console.log('Базовые операторы "умножение"');
 
-console.log(NewNum * NewString);
+// console.log(NewNum * NewString);
+// console.log(NewNum + NewString);
+// console.log(NewNum - NewString);
+// console.log(NewNum / NewString);
+
+// console.log('Проверка на тип');
+
+// console.log(typeof NewNum);
+// console.log(typeof NewString);
+// console.log(typeof NewBoolean);
+// console.log(typeof FIRSTNAME);
+
+// console.log('Явное преведние типов');
+
+// console.log(Number(NewNum) + Number(NewString));
+// console.log(Number(NewNum) + Number(NewStringWithLetter));
+
+// console.log('Остаток');
+
+// console.log(533 % 2);
+
+// console.log('Возведение в степень');
+
+// console.log(2 ** 4);
+
+// console.log('Инкремент и декремент');
+
+// let IncrementedCounter = 4;
+// let DecrementedCounter = 4;
+
+// IncrementedCounter++
+// DecrementedCounter--
+
+// console.log(IncrementedCounter);
+// console.log(DecrementedCounter);
 
 
 
-console.log(NewNum + NewString);
-console.log(NewNum - NewString);
-console.log(NewNum / NewString);
+const u = undefined;
 
-console.log('Проверка на тип');
+const n = null;
 
-console.log(typeof NewNum);
-console.log(typeof NewString);
-console.log(typeof NewBoolean);
-console.log(typeof FIRSTNAME);
+const b = 5 % 2;
+Boolean(b);
+const nan = 4 * 'b';
+
+console.log(u, n, Boolean(b), nan)
 
 
-console.log('Явное преведние типов');
-
-console.log(Number(NewNum) + Number(NewString));
-console.log(Number(NewNum) + Number(NewStringWithLetter));
-
-console.log('Остаток');
-
-console.log(533 % 2);
-
-console.log('Возведение в степень');
-
-console.log(2 ** 4);
-
-console.log('Инкремент и декремент');
-
-let IncrementedCounter = 4;
-let DecrementedCounter = 4;
-
-IncrementedCounter++
-DecrementedCounter--
-
-console.log(IncrementedCounter);
-console.log(DecrementedCounter);
+// Должно вывести в консоль: `undefined null true NaN`
